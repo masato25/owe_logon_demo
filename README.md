@@ -7,6 +7,7 @@ CREATE TABLE Accounts (
      id MEDIUMINT NOT NULL AUTO_INCREMENT,
      username CHAR(100) NOT NULL,
      password CHAR(200) NOT NULL,
+     email CHAR(150) NOT NULL,
      salt CHAR(32) NOT NULL,
      createdAt TIMESTAMP,
      updatedAt TIMESTAMP,
